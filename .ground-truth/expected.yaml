@@ -1,0 +1,10 @@
+id: P22-E04
+repository: aci-gt-p22-pulls-write
+visibility: public
+stage: P2
+rule: P2.2
+kind: experiment
+atomic_variable: "pull-requests: write"
+expected_status: REACHABLE
+setup: AUTO_FILES
+configuration_state: COMPLETE
